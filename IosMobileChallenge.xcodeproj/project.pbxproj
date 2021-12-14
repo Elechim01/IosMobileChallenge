@@ -11,6 +11,8 @@
 		C462CF532764A9A2006EA902 /* IosMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462CF482764A9A2006EA902 /* IosMobileChallenge.framework */; };
 		C462CF582764A9A2006EA902 /* IosMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462CF572764A9A2006EA902 /* IosMobileChallengeTests.swift */; };
 		C462CF592764A9A2006EA902 /* IosMobileChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = C462CF4B2764A9A2006EA902 /* IosMobileChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C462CF632764AA5B006EA902 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462CF622764AA5B006EA902 /* UserList.swift */; };
+		C462CF642764AA5B006EA902 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C462CF622764AA5B006EA902 /* UserList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		C462CF4C2764A9A2006EA902 /* IosMobileChallenge.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = IosMobileChallenge.docc; sourceTree = "<group>"; };
 		C462CF522764A9A2006EA902 /* IosMobileChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosMobileChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C462CF572764A9A2006EA902 /* IosMobileChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosMobileChallengeTests.swift; sourceTree = "<group>"; };
+		C462CF622764AA5B006EA902 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 			children = (
 				C462CF4B2764A9A2006EA902 /* IosMobileChallenge.h */,
 				C462CF4C2764A9A2006EA902 /* IosMobileChallenge.docc */,
+				C462CF622764AA5B006EA902 /* UserList.swift */,
 			);
 			path = IosMobileChallenge;
 			sourceTree = "<group>";
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C462CF632764AA5B006EA902 /* UserList.swift in Sources */,
 				C462CF4D2764A9A2006EA902 /* IosMobileChallenge.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C462CF642764AA5B006EA902 /* UserList.swift in Sources */,
 				C462CF582764A9A2006EA902 /* IosMobileChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +404,7 @@
 		C462CF602764A9A2006EA902 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G7DSPSWXXC;
@@ -419,6 +426,7 @@
 		C462CF612764A9A2006EA902 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G7DSPSWXXC;
